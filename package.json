@@ -1,0 +1,18 @@
+{
+  "name": "sitecheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rm img/*.png & rm txt/*.txt"
+  },
+  "author": "Tobin Bradley",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "libnotify": "^1.0.4",
+    "pixelmatch": "^4.0.2",
+    "puppeteer": "^1.11.0"
+  }
+}
