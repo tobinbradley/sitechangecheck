@@ -30,7 +30,7 @@ function pngDiff(fileName) {
 
       if (pixelDiff > 0) {
         // write diff file
-        diff.pack().pipe(fs.createWriteStream('diff.png'))
+        diff.pack().pipe(fs.createWriteStream('img/diff.png'))
       }
 
       resolve(pixelDiff)
